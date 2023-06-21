@@ -273,3 +273,23 @@ li {
     }
 
 }
+
+@media screen and (min-width: 2199px) {
+    /* HEADER: NAV */
+    nav {
+     position: fixed;
+     left: 0;
+     top: 0;
+     height: 100%;
+     width: 20%;
+ }
+ 
+ ul {
+     flex-direction: column;
+     justify-content: flex-start;
+ }
+
+ li {
+    margin-top: 5%;
+ }
+}
