@@ -235,19 +235,21 @@ li {
     }
     
     li {
-
+        width: 80%;
     }
     
     .normal-li {
-
+        padding: 50px 0;
     }
     
     #store {
-
+        padding: 10px 5px;
+        justify-content: space-around;
     }
     
     #nav-bee {
-
+        width: 40%;
+        height: 40%;
     }
     article {
         width: 1000px;
