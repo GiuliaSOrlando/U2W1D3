@@ -232,7 +232,7 @@ li {
     }
     
     ul {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     
     li {
@@ -241,6 +241,7 @@ li {
     
     .normal-li {
         padding: 50px 0;
+        order: 1;
     }
     
     #store {
@@ -250,7 +251,7 @@ li {
     
     #nav-bee {
         width: 40%;
-        height: 40%;
+        height: 50%;
     }
 
     main {
