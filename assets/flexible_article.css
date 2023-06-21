@@ -1,0 +1,38 @@
+article {
+    display: flex;
+    background-color: #fef7e2;
+    font-family: sans-serif;
+    color: #562c18;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.text-content {
+    width: 500px;
+    padding: 5px;
+}
+
+img {
+    width: 500px;
+    margin: 10px;
+}
+
+.title {
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 1199px) {
+    article {
+        flex-direction: column-reverse;
+        width: 550px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    article {
+        width: 1000px;
+    }
+}
