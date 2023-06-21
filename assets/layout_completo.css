@@ -226,6 +226,7 @@ li {
        nav {
         position: fixed;
         left: 0;
+        top: 0;
         height: 100%;
         width: 20%;
     }
@@ -262,5 +263,12 @@ li {
 
     article {
         width: 100%;
+        margin-top: 3%;
     }
+
+    h2 {
+        font-size: 3em;
+        margin-bottom: 2px;
+    }
+
 }
