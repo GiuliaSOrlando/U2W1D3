@@ -251,7 +251,16 @@ li {
         width: 40%;
         height: 40%;
     }
+
+    main {
+        margin-left: 20%;
+    }
+
+    .card-container {
+        flex-wrap: nowrap;
+    }
+
     article {
-        width: 1000px;
+        width: 100%;
     }
 }
